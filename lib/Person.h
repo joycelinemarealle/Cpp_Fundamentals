@@ -13,7 +13,13 @@ private:
   int arbitaryNumber;
 
 public:
-    Person(std::string first, std::string last, int arbitary);
+    Person(std::string first, std::string last, int arbitary){
+    firstName = first,
+    lastName = last,
+    arbitaryNumber =arbitary;
+    };
+
+    //default defined if initializing object without parameters
     Person()=default;
     std::string getName() {
         return firstName + "" + lastName;

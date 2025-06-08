@@ -5,21 +5,18 @@
 #include <string>
 #include "Person.h"
 
+using std::cout;
+using std::endl;
+
 int main (){
-  Person::Person(std::string first,
-                std::string last,
-                int arbitary)
-    :
-  firstName(first),
-  lastName(last),
-  arbitaryNumber(arbitary)
-  {
-  }
   Person p1("Joyceline", "Marealle", 28);
   Person p2;
-
   std::string name = p1.getName();
 //int i = p1.arbitrarynumber;
 
+  cout << "Hello" << endl;
+  std::string name2 = p1.getName();
+
+  return 0;
 
   }
