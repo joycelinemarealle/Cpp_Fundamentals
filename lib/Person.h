@@ -1,6 +1,7 @@
 //
 // Created by Joyceline Marealle on 6/5/25.
 //
+#pragma once
 #include <iostream>
 #ifndef PERSON_H
 #define PERSON_H
@@ -13,17 +14,11 @@ private:
   int arbitaryNumber;
 
 public:
-    Person(std::string first, std::string last, int arbitary){
-    firstName = first,
-    lastName = last,
-    arbitaryNumber =arbitary;
-    };
-
+    Person(std::string first, std::string last, int age); //declaration
     //default defined if initializing object without parameters
-    Person()=default;
+    //Person()=default;
     std::string getName() {
-        return firstName + "" + lastName;
+        return firstName + " " + lastName;
     };
 };
-
 #endif //PERSON_H

@@ -1,0 +1,4 @@
+mkdir -p build      # create the build directory if it doesn’t exist
+cd build            # move into the build directory
+cmake ..            # generate build files based on CMakeLists.txt in parent folder
+make                # compile the project and build the executable

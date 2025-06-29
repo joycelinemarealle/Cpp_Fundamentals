@@ -3,4 +3,8 @@ project(C__Fundamentals)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(C__Fundamentals main.cpp)
+add_executable(C__Fundamentals
+        lib/ClassesAndObjects.cpp
+        lib/Tweeter.cpp
+        lib/Person.cpp
+)
