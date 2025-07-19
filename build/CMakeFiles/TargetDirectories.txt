@@ -1,0 +1,3 @@
+/Users/joycelinemarealle/CLionProjects/C++Fundamentals/build/CMakeFiles/C__Fundamentals.dir
+/Users/joycelinemarealle/CLionProjects/C++Fundamentals/build/CMakeFiles/edit_cache.dir
+/Users/joycelinemarealle/CLionProjects/C++Fundamentals/build/CMakeFiles/rebuild_cache.dir

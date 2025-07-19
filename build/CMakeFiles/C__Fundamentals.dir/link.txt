@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch x86_64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/C__Fundamentals.dir/lib/ClassesAndObjects.cpp.o CMakeFiles/C__Fundamentals.dir/lib/Tweeter.cpp.o CMakeFiles/C__Fundamentals.dir/lib/Person.cpp.o -o C__Fundamentals
