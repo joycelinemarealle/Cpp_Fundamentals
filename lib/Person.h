@@ -17,8 +17,10 @@ public:
     Person(std::string first, std::string last, int age); //declaration
     //default defined if initializing object without parameters
     //Person()=default;
-    std::string getName() {
-        return firstName + " " + lastName;
-    };
+
+    ~Person();
+    std::string GetName() const;
+    int GetNumber() const {return arbitaryNumber;}
+    void SetNumber(int number){arbitaryNumber= number;}
 };
 #endif //PERSON_H
